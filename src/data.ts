@@ -8,7 +8,7 @@ export const PERSONAL_INFO = {
   contact: {
     phone: "010-3395-7031",
     email: "yuhyemin731@gmail.com",
-    website: "www.yuhyemin-portfolio.com",
+    website: "https://portfolio-test-260526-hm.vercel.app/",
     location: "Seoul, South Korea",
   },
   profile: "평생교육 기획과 운영 분야에서 다양한 학습 프로그램을 설계하고 참여자 성과를 관리해 온 평생교육사입니다. 학습자 중심의 교육 환경을 구축하며 지역사회와 기관의 성장에 기여하는 것을 목표로 하고 있습니다. 데이터 기반의 교육 운영과 효과적인 커뮤니케이션을 중요하게 생각하며, 문제 해결 과정에서 협업을 적극 활용합니다. 변화하는 교육 트렌드와 디지털 학습 기술에 대한 지속적인 관심을 바탕으로 더 나은 학습 경험을 제공하고자 합니다.",
