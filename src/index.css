@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Georgia", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-beige: #F9F7F2; /* Soft warm paper base */
+  --color-brand-cream: #EBE6D8; /* Cream background panels */
+  --color-brand-clay: #D1CCC0;  /* Artistic linen divider color */
+  --color-brand-charcoal: #1A1A1A; /* Crisp black ink color */
+  --color-brand-terracotta: #3D5A50; /* Signature Sage Green used as accent */
+  --color-brand-sage: #3D5A50;     /* Specific refined sage */
+  --color-brand-forest: #2B3D36;   /* Dark forest shade */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-brand-beige);
+  color: var(--color-brand-charcoal);
+  font-family: var(--font-sans);
+}
+
+/* Elegant custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-beige);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-clay);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-charcoal);
+}
