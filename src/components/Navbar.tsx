@@ -52,7 +52,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
             <GraduationCap size={20} />
           </div>
           <div className="text-left">
-            <span className="font-serif font-black text-lg md:text-xl tracking-tighter text-brand-charcoal block leading-none">
+            <span className="font-sans font-extrabold text-xl md:text-2xl tracking-tight text-brand-sage block leading-none">
               유혜민
             </span>
             <span className="font-mono text-[9px] text-brand-sage font-bold uppercase tracking-widest mt-1 block">
